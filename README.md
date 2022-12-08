@@ -12,6 +12,14 @@ Container it is  a standardized unit of software, it is packages of codes and de
 You don't need to worried to have in developer environment one language version (PHP8.1) in your machine and have another version in production environment (PHP7.4), with docker both environments will have the same version and extensions installed properly.
 
 Install docker: https://docs.docker.com/engine/install/
+
+## Commands
+
+- Build Dockerfile: `docker build .`
+- Run an image: `docker run -p {internal_port}:{docker_port} {image_id}`
+- List all containers: `docker ps`
+- Stop some container: `docker stop {container_name}`
+
 ## Following links
 - [Docker & Kubernetes: The Practical Guide [2023 Edition]](https://www.udemy.com/course/docker-kubernetes-the-practical-guide)
 
